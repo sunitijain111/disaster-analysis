@@ -25,16 +25,18 @@ plt.title('drought in world total cost in USD')
 plt.show() 
 
 a= drought_set[drought_set.columns[4]]/ drought_set[drought_set.columns[3]]
-a*=100
+
 plt.plot(drought_set['Year'], a) 
 plt.xlabel('year')
-plt.ylabel('cost per person *100 ') 
-plt.title('drought in world total cost in USD') 
+plt.ylabel('cost per person ') 
+plt.title('drought in world per person cost in USD') 
 plt.show() 
 
 
-drought_set["cost per person "]= a/100
+drought_set["cost per person "]= a
 
 print(drought_set[drought_set.columns[3]].mean()  )
 print(drought_set[drought_set.columns[4]].mean()  )
 print(drought_set[drought_set.columns[5]].mean()  )
+print(drought_set.info())
+#121
