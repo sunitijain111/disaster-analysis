@@ -1,4 +1,3 @@
 # disaster-analysis
-
-##important: I am skipping the most important file of preprossing in all of the codes.
-this is done to prevent reuse of my work/ duplication of my work. 
+all the files that have been uploaded have partial code.
+Not all the files related to this project have been uploaded/
